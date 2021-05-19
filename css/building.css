@@ -287,6 +287,10 @@ body.building_version .section-title h3 {
   padding-bottom: 12px;
   color: #fff;
 }
+.first::first-letter {
+  color: red !important;
+}
+
 #footer-widgets .widget .widget-title > span::after {
   content: "";
   position: absolute;
