@@ -99,7 +99,7 @@ body.building_version .first-section h2 {
     padding-bottom: 10px;
 }
 #about.section.wb {
-    background: url('../uploads/building/construction01.png');
+    background-color: #fbfbfb;
     background-size: cover;
     background-repeat: no-repeat;
 }
