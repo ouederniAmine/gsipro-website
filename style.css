@@ -53,9 +53,9 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 1.80857;
 }
-body.demos .section {
-    background: url(images/bg.png) repeat top center #f2f3f5;
-}
+
+
+
 body.demos .section-title img {
     max-width: 280px;
     display: block;
@@ -1539,12 +1539,15 @@ select.mobile-device {
 .contact_form .form-control::-ms-input-placeholder {
     color: #bcbcbc;
 }
-#contact {
-    background: url(images/bg.png) no-repeat center center #fff;
-}
+
 /*------------------------------------------------------------------
     FOOTER
 -------------------------------------------------------------------*/
+.door:active,
+.window:active,.other:active{
+    background-color: #0165da;
+}
+
 
 .cac {
     background-color: #232323;
