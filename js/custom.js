@@ -159,6 +159,8 @@
 $(document).ready(function () {
   $("#windows").hide(1);
   $("#others").hide(1);
+  $(".door").css("background-color", "#0165da");
+  $(".door").css("color", "white");
 });
 
 $(document).ready(function () {
@@ -201,4 +203,10 @@ $(document).ready(function () {
       $(".door").css("color", "#999999");
     }
   });
+});
+$(".rename").click(function (e) {
+  e.preventDefault();
+  var $this = $(this);
+  var fileName = $(this).data("file");
+  $("#basicModal").data("fileName", fileName).modal("toggle", $this);
 });
