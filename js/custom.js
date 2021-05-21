@@ -175,6 +175,9 @@ $(document).ready(function () {
       $("#others").hide(1);
       $(".other").css("background-color", "#EFEFEF");
       $(".other").css("color", "#999999");
+      $("#stairs").hide(1);
+      $(".stair").css("background-color", "#EFEFEF");
+      $(".stair").css("color", "#999999");
     }
   });
   $(".door").click(function () {
@@ -188,6 +191,9 @@ $(document).ready(function () {
       $("#others").hide(1);
       $(".other").css("background-color", "#EFEFEF");
       $(".other").css("color", "#999999");
+      $("#stairs").hide(1);
+      $(".stair").css("background-color", "#EFEFEF");
+      $(".stair").css("color", "#999999");
     }
   });
   $(".other").click(function () {
@@ -201,6 +207,26 @@ $(document).ready(function () {
       $("#doors").hide(1);
       $(".door").css("background-color", "#EFEFEF");
       $(".door").css("color", "#999999");
+      $("#stairs").hide(1);
+
+      $(".stair").css("background-color", "#EFEFEF");
+      $(".stair").css("color", "#999999");
+    }
+  });
+  $(".stair").click(function () {
+    $(".stair").css("background-color", "#0165da");
+    $(".stair").css("color", "white");
+    if (!$("#stairs").is(":visible")) {
+      $("#stairs").show();
+      $("#windows").hide(1);
+      $(".window").css("background-color", "#EFEFEF");
+      $(".window").css("color", "#999999");
+      $("#doors").hide(1);
+      $(".door").css("background-color", "#EFEFEF");
+      $(".door").css("color", "#999999");
+      $("#others").hide(1);
+      $(".other").css("background-color", "#EFEFEF");
+      $(".other").css("color", "#999999");
     }
   });
 });
