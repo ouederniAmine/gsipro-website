@@ -159,6 +159,7 @@
 $(document).ready(function () {
   $("#windows").hide(1);
   $("#others").hide(1);
+  $("#stairs").hide(1);
   $(".door").css("background-color", "#0165da");
   $(".door").css("color", "white");
 });
